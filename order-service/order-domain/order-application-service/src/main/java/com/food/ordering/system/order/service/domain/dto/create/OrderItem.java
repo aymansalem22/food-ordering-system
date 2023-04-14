@@ -9,8 +9,8 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 @Getter
-@AllArgsConstructor
 @Builder
+@AllArgsConstructor
 public class OrderItem {
     @NotNull
     private final UUID productId;
