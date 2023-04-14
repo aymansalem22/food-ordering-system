@@ -24,6 +24,10 @@ public class Order extends AggregateRoot<OrderId> {
     private OrderStatus orderStatus;
     private List<String> failureMessages;
 
+    public static Builder builder() {
+        return new Builder();
+    }
+
     public void intializeOrder(){
         setId(new OrderId(UUID.randomUUID()));
         trackingId=new TrackingId(UUID.randomUUID());
@@ -175,9 +179,7 @@ public class Order extends AggregateRoot<OrderId> {
         private Builder() {
         }
 
-        public static Builder builder() {
-            return new Builder();
-        }
+
 
         public Builder orderId(OrderId val) {
             orderId = val;
@@ -188,6 +190,8 @@ public class Order extends AggregateRoot<OrderId> {
             customerId = val;
             return this;
         }
+
+
 
         public Builder restaurantId(RestaurantId val) {
             restaurantId = val;
