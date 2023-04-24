@@ -15,7 +15,6 @@ public abstract class OrderEvents implements DomainEvent<Order> {
     }
 
 
-
     public Order getOrder() {
         return order;
     }

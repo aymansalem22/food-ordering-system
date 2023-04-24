@@ -1,21 +1,21 @@
 # food-ordering-system
 
-  -  Spring boot microservices
+- Spring boot microservices
 
-  -  Clean Architecture
+- Clean Architecture
 
-  -  Hexagonal Architecture
+- Hexagonal Architecture
 
-  -  Domain Driven Design
+- Domain Driven Design
 
-  -  Event-driven services using Apache Kafka
+- Event-driven services using Apache Kafka
 
-  -  SAGA Architecture Pattern
+- SAGA Architecture Pattern
 
-  -  Outbox Architecture Pattern
+- Outbox Architecture Pattern
 
-  -  CQRS Architecture Pattern
+- CQRS Architecture Pattern
 
-  -  Kubernetes on local using Docker desktop
+- Kubernetes on local using Docker desktop
 
-  -   Kubernetes on Google Cloud using Google Kubernetes Engine(GKE)
+- Kubernetes on Google Cloud using Google Kubernetes Engine(GKE)
