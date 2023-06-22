@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="CLEAN CODE AND REFORMAT">
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-config-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Implementing Kafka model generic module">
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/OrderApprovalStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/PaymentOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/PaymentRequestAvroModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/PaymentResponseAvroModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/RestaurantApprovalRequestAvroModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/RestaurantApprovalResponseAvroModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/order/avro/model/RestaurantOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/resources/avro/payment_request.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/resources/avro/payment_response.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/resources/avro/restaurant_approval_request.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/resources/avro/restaurant_approval_response.avsc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-model/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682323096861</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implementing Kafka config data generic module">
+      <created>1687395729566</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687395729566</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Apache Kafka using Docker">
+      <created>1687395873936</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687395873936</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -252,7 +271,10 @@
     <MESSAGE value="Implementing Order Track Command Handler" />
     <MESSAGE value="Testing Order Service domain logic" />
     <MESSAGE value="CLEAN CODE AND REFORMAT" />
-    <option name="LAST_COMMIT_MESSAGE" value="CLEAN CODE AND REFORMAT" />
+    <MESSAGE value="Implementing Kafka config data generic module" />
+    <MESSAGE value="Apache Kafka using Docker" />
+    <MESSAGE value="Implementing Kafka model generic module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Kafka model generic module" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/food_ordering_system$domain_in_order_application_service.ic" NAME="domain in order-application-service Coverage Results" MODIFIED="1682322749786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
