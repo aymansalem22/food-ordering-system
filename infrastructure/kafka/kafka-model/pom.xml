@@ -10,7 +10,6 @@
     </parent>
 
     <artifactId>kafka-model</artifactId>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.avro</groupId>
