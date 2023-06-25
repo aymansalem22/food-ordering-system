@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Application module: Adding Controller Advice">
+    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Data access module: Adding Order JPA Entity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687659056164</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Data access module: Adding Order JPA Entity">
+      <created>1687699151489</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687699151489</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -312,7 +319,8 @@
     <MESSAGE value="Implementing Kafka consumer generic module" />
     <MESSAGE value="Application module: Adding Web Controller" />
     <MESSAGE value="Application module: Adding Controller Advice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Application module: Adding Controller Advice" />
+    <MESSAGE value="Data access module: Adding Order JPA Entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data access module: Adding Order JPA Entity" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/food_ordering_system$domain_in_order_application_service.ic" NAME="domain in order-application-service Coverage Results" MODIFIED="1682322749786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
