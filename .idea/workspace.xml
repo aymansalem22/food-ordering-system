@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Data access module: Adding JPA Repository &amp; Adapter implementation">
+    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Data access module: Adding Customer and Restaurant implementations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-messaging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-messaging/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687716257758</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Data access module: Adding Customer and Restaurant implementations">
+      <created>1687726219082</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687726219082</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -328,7 +335,8 @@
     <MESSAGE value="Application module: Adding Controller Advice" />
     <MESSAGE value="Data access module: Adding Order JPA Entity" />
     <MESSAGE value="Data access module: Adding JPA Repository &amp; Adapter implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data access module: Adding JPA Repository &amp; Adapter implementation" />
+    <MESSAGE value="Data access module: Adding Customer and Restaurant implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data access module: Adding Customer and Restaurant implementations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/food_ordering_system$domain_in_order_application_service.ic" NAME="domain in order-application-service Coverage Results" MODIFIED="1682322749786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
