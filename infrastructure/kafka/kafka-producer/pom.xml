@@ -10,6 +10,7 @@
     </parent>
 
     <artifactId>kafka-producer</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>com.food.ordering.system</groupId>
