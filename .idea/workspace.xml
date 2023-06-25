@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Implementing Kafka consumer generic module">
+    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Application module: Adding Web Controller">
+      <change afterPath="$PROJECT_DIR$/common/common-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/src/main/java/com/food/ordering/system/kafka/consumer/config/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/src/main/java/com/food/ordering/system/kafka/consumer/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/order-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687476151690</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Application module: Adding Web Controller">
+      <created>1687654226758</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687654226758</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -288,7 +298,8 @@
     <MESSAGE value="Implementing Kafka model generic module" />
     <MESSAGE value="Implementing Kafka producer generic module" />
     <MESSAGE value="Implementing Kafka consumer generic module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Kafka consumer generic module" />
+    <MESSAGE value="Application module: Adding Web Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Application module: Adding Web Controller" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/food_ordering_system$domain_in_order_application_service.ic" NAME="domain in order-application-service Coverage Results" MODIFIED="1682322749786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
