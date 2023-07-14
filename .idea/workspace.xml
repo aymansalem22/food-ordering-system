@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Messaging module: Adding Listener implementations">
+    <list default="true" id="5dbb562b-7670-4a51-93f6-ed3b27294d11" name="Changes" comment="Container module: Adding spring boot starter class and config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-container/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-messaging/src/main/java/com/food/ordering/system/order/service/messaging/listener/kafka/PaymentResponseKafkaListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-messaging/src/main/java/com/food/ordering/system/order/service/messaging/listener/kafka/PaymentResponseKafkaListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-container/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-container/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689281192111</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Container module: Adding spring boot starter class and config">
+      <created>1689290280761</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1689290280762</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -352,7 +358,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ok" />
     <MESSAGE value=" Domain Driven Design" />
     <MESSAGE value=" Implementing Order Service domain logic using DDD Order Aggregate Root" />
     <MESSAGE value="Implementing Order Domain Service &amp; Implementing Order Application Service - DTO classes" />
@@ -377,7 +382,8 @@
     <MESSAGE value="update maven clean" />
     <MESSAGE value="Messaging module: Adding Publisher implementations" />
     <MESSAGE value="Messaging module: Adding Listener implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Messaging module: Adding Listener implementations" />
+    <MESSAGE value="Container module: Adding spring boot starter class and config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Container module: Adding spring boot starter class and config" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/food_ordering_system$domain_in_order_application_service.ic" NAME="domain in order-application-service Coverage Results" MODIFIED="1682322749786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
