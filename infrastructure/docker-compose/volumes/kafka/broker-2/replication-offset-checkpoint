@@ -54,13 +54,13 @@ restaurant-approval-response 2 0
 _schemas 0 2
 customer 2 0
 __consumer_offsets 47 0
-__consumer_offsets 7 0
+__consumer_offsets 7 1
 customer 0 0
 __consumer_offsets 22 0
 restaurant-approval-response 1 0
 restaurant-approval-request 1 0
 __consumer_offsets 46 0
-__consumer_offsets 31 0
+__consumer_offsets 31 1
 __consumer_offsets 5 0
 __consumer_offsets 15 0
 payment-request 2 0
